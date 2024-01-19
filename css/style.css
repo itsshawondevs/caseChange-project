@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.main h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main p{
+    font-size: 1rem;
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.input_wrapper{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    column-gap: 20px;
+}
+.inputbox{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    margin: auto;
+}
+.main textarea{
+    padding: 10px;
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.main textarea::placeholder{
+    font-size: 16px;
+}
+.button_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.button_area button{
+    padding: 8px;
+    width: 100px;
+    background-color: rgb(190, 190, 190);
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.outputHeading{
+    font-size: 24px;
+    color: brown;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+.output{
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 200px;
+    overflow-y: scroll;
+}
