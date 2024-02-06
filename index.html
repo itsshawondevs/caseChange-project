@@ -7,28 +7,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section>
+    <section id="main_area">
         <div class="main">
             <h1>CHANGE TEXT CASE</h1>
             <p>Change Text Case is a handy web application that enables you to change the text case of any given text. Simply copy and paste the text into the text area below and click the required text case.
             </p>
-            <div class="input_wrapper">
-                <form action="" method="">
-                    <div class="inputbox">
-                        <textarea name="" id="" cols="30" rows="10" class="area" placeholder="type or paste your text to convert text case"></textarea>
-                    </div>
-                </form>
-                <div class="button_area">
-                    <button class="btn" id="upper" type="button">UPPERCASE</button>
-                    <button class="btn" id="lowercase" type="button">lowercase</button>
-                    <button class="btn" id="repeat" type="button">repeat 100x</button>
-                    <button class="btn" id="reset" type="reset">reset</button>
+            <form action="" method="">
+                <div class="inputbox">
+                    <textarea name="" id="" cols="30" rows="10" class="area" placeholder="type or paste your text to convert text case"></textarea>
                 </div>
-            </div>
-            <h2 class="outputHeading">Copy Your text</h2>
-            <div class="output">
-                <h3 class="result"></h3>
-            </div>
+            </form>
+            <div class="button_area">
+                <button class="btn" id="upper" type="button">UPPERCASE</button>
+                <button class="btn" id="lowercase" type="button">lowercase</button>
+                <button class="btn" id="repeat" type="button">repeat 100x</button>
+                <button class="btn" id="reset" type="reset">reset</button>
+                <div class="copybtn">
+                    <button id="copy">copy</button>
+                    <span class="tooltip">copy to clipboard</span>
+                </div>
+            </div> 
         </div>
     </section>
 
